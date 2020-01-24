@@ -15,9 +15,9 @@ def make_clust(net, dist_type='cosine', run_clustering=True, dendro=True,
 
   df = net.dat_to_df()
 
-  threshold = 0.0001
-  df = run_filter.df_filter_row_sum(df, threshold)
-  df = run_filter.df_filter_col_sum(df, threshold)
+  #threshold = 0.0001
+  # df = run_filter.df_filter_row_sum(df, threshold)
+  # df = run_filter.df_filter_col_sum(df, threshold)
 
   # default setting
   define_cat_colors = False
